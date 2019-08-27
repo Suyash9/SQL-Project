@@ -1,0 +1,1 @@
+SELECT Author, COUNT(DISTINCT(HotelID)) FROM Reviews GROUP BY Author HAVING COUNT(Author)>2;
